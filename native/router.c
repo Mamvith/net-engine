@@ -4,8 +4,6 @@
 
 #define INF 999
 #define MAX_SERVERS 10
-
-// 1. Your VTU Dijkstra Logic (Unchanged)
 void dijkstra(int c[10][10], int n, int s, int d[10]) {
     int v[10], min, u, i, j;
     
